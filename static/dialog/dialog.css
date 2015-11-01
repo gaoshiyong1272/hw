@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**弹出层样式2**/
+.cxg-dialog-box {position:absolute; top: -9999px; left: -9999px;}
+.cxg-dialog-mask-opacity { position: absolute; top: 0; left: 0; width: 100%; opacity:0.5; filter: alpha(opacity=50);}
+.cxg-dialog-box-cont { border:1px solid #fff\9\0; background-color:#dcdcdc\9; *border:1px solid #fff; *background-color:#dcdcd9; padding:1px; border-radius:8px;}
+.cxg-dialog-load { width:100%;}
+.cxg-dialog-load p { background:url('images/cxg-loading.gif?version=2014011501') no-repeat center; margin: 0 auto; padding: 0; }
+.cxg-dialog-layerBox { position:relative; background-color:#fff; width:100%;overflow: hidden; height: 100%; border-radius:8px; box-shadow: 0 0 20px #999; }
+.cxg-dialog-layerBox .cxg-title { height:60px; width:100%; }
+.cxg-dialog-layerBox .cxg-title .cxg-title-c { height:36px; text-indent: -10000px; line-height:36px; padding:12px 0 12px 10px; margin-right:30px; font-size:14px; font-weight:bold; color:#666;}
+.cxg-dialog-layerBox .cxg-close { position:absolute; top:10px; right:10px; width:50px; height:50px;}
+.cxg-dialog-layerBox .cxg-close a { display:block; width:50px; height:50px; background:url('images/cxg-close.gif?version=2014011501') no-repeat 2px; noFocusLine:expression(this.onFocus=this.blur()); outline:none;}
+.cxg-dialog-layerBox .cxg-close a:hover { background:url('images/cxg-close.gif?version=2014011501') no-repeat 2px;}
+.cxg-scroll-noSelect { -ms-user-select:none; -webkit-user-select:none; -moz-user-select:none;}
+
+
+
+
+
