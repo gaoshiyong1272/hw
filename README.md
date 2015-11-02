@@ -1,14 +1,5 @@
 # 前端公共文件 1.0版本 接口文档
 
-加载CDN库文件有黑站和白站之分，清除CDN缓存需要添加后缀版本号{version}。调用前端公共库文件的时候需要在页面头部传入一个变量cxg_cdn_path：
-
-```js
-var cxg_cdn_path = 1 //标识为黑站，默认为白站
-```
-
->* **黑站域名** : cdn.microaol.net
->* **白站域名** : cdn.gooogleyahooo.net
-
 
 ## 一、公共JS文件API文档，（cxg.common.js）
 
